@@ -40,9 +40,9 @@ from wine_analysis import GCMSDataProcessor
 from utils import normalize_data, calculate_chance_accuracy_with_priors
 
 
-DATA_DIRECTORY = "/home/luiscamara/Documents/datasets/3D_data/PRESS_WINES/Esters22/MERLOT/"
+DATA_DIRECTORY = "/Users/juliaroquette/Work/oenology/data/3D_data/PRESS_WINES/Esters22/MERLOT/"
 CHEMICAL_NAME = 'PRESS_WINES_ESTERS_2022_M'
-DATA_DIRECTORY_2 = "/home/luiscamara/Documents/datasets/3D_data/PRESS_WINES/Esters22/CABERNET/"
+DATA_DIRECTORY_2 = "/Users/juliaroquette/Work/oenology/data/3D_data/PRESS_WINES/Esters22/CABERNET/"
 CHEMICAL_NAME_2 = 'PRESS_WINES_ESTERS_2022_CS'
 NORMALIZE=True
 PRINT_RESULTS=True

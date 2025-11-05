@@ -17,8 +17,8 @@ import utils
 
 # --- Configuration ---
 # Define your two data directories (adjust these paths as needed)
-DATA_DIRECTORY1 = "/home/luiscamara/Documents/datasets/3D_data/PINOT_NOIR/LLE_SCAN/"
-DATA_DIRECTORY2 = "/home/luiscamara/Documents/datasets/3D_data/220322_Pinot_Noir_Tom_CDF/"
+DATA_DIRECTORY1 = "/Users/juliaroquette/Work/oenology/data/3D_data/PINOT_NOIR/LLE_SCAN/"
+DATA_DIRECTORY2 = "/Users/juliaroquette/Work/oenology/data/3D_data/220322_Pinot_Noir_Tom_CDF/"
 
 # Set the starting row and determine the columns to load from CSV (assuming similar structure in both)
 ROW_START = 1

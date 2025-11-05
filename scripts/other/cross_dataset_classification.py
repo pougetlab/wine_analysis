@@ -11,8 +11,8 @@ from wine_analysis import WineAnalysis, ChromatogramAnalysis, GCMSDataProcessor
 
 
 # Define paths for the two datasets
-DATASET_1_DIR = "/home/luiscamara/Documents/datasets/3D_data/220322_Pinot_Noir_Tom_CDF/"
-DATASET_2_DIR = "/home/luiscamara/Documents/datasets/3D_data/PINOT_NOIR/LLE_SCAN/"
+DATASET_1_DIR = "/Users/juliaroquette/Work/oenology/data/3D_data/220322_Pinot_Noir_Tom_CDF/"
+DATASET_2_DIR = "/Users/juliaroquette/Work/oenology/data/3D_data/PINOT_NOIR/LLE_SCAN/"
 N_DECIMATION = 5
 DATA_TYPE = "TIS"
 SYNC_STATE = True

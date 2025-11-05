@@ -2440,7 +2440,7 @@ from pathlib import Path
 from datetime import datetime
 import xml.etree.ElementTree as ET
 # from gcmswine.utils import print_letter_origine_and_date_from_sample_info
-# root_path = "/home/luiscamara/Documents/datasets/3D_data/PINOT_NOIR/Changins/220322_Pinot_Noir_Tom/"
+# root_path = "/Users/juliaroquette/Work/oenology/data/3D_data/PINOT_NOIR/Changins/220322_Pinot_Noir_Tom/"
 # print_letter_origine_and_date_from_sample_info(root_path)
 def print_letter_origine_and_date_from_sample_info(root_path):
     letter_to_origine = {

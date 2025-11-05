@@ -524,8 +524,8 @@ if __name__ == "__main__":
     # RANDOM_SEED = 42
     random_seed = 42                   # For reproducibility
     row_start, row_end = 0, None
-    directory = "/home/luiscamara/Documents/datasets/Champagnes/HETEROCYC"
-    metadata_path = "/home/luiscamara/Documents/datasets/Champagnes/sensory_scores.csv"
+    directory = "/Users/juliaroquette/Work/oenology/data/Champagnes/HETEROCYC"
+    metadata_path = "/Users/juliaroquette/Work/oenology/data/Champagnes/sensory_scores.csv"
 
     # Load user-defined options
     wine_kind = "Champagne"

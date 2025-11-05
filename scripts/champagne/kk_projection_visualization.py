@@ -110,7 +110,7 @@ if __name__ == "__main__":
     show_point_labels = True  # Set to False to hide text labels on plot points
 
     # --- Load CSV and preprocess ---
-    df = pd.read_csv("/home/luiscamara/Documents/datasets/Champagnes/sensory_scores.csv", skiprows=1)
+    df = pd.read_csv("/Users/juliaroquette/Work/oenology/data/Champagnes/sensory_scores.csv", skiprows=1)
     df = df.iloc[1:]  # remove second header row if needed
     df.columns = [col.strip().lower() for col in df.columns]  # lowercase and clean headers
 

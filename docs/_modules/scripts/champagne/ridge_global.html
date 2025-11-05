@@ -104,8 +104,8 @@
 <span class="n">N_REPEATS</span> <span class="o">=</span> <span class="mi">10</span>
 <span class="n">TEST_SIZE</span> <span class="o">=</span> <span class="mf">0.2</span>
 <span class="n">RANDOM_SEED</span> <span class="o">=</span> <span class="mi">42</span>
-<span class="n">directory</span> <span class="o">=</span> <span class="s2">&quot;/home/luiscamara/Documents/datasets/Champagnes/HETEROCYC&quot;</span>
-<span class="c1"># directory = &quot;/home/luiscamara/Documents/datasets/Champagnes/DMS&quot;</span>
+<span class="n">directory</span> <span class="o">=</span> <span class="s2">&quot;/Users/juliaroquette/Work/oenology/data/Champagnes/HETEROCYC&quot;</span>
+<span class="c1"># directory = &quot;/Users/juliaroquette/Work/oenology/data/Champagnes/DMS&quot;</span>
 <span class="n">column_indices</span> <span class="o">=</span> <span class="kc">None</span>  <span class="c1"># or specify which columns to use</span>
 <span class="n">row_start</span><span class="p">,</span> <span class="n">row_end</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="kc">None</span>  <span class="c1"># if you want to trim rows</span>
 
@@ -115,7 +115,7 @@
 <span class="n">data_dict</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">load_ms_csv_data_from_directories</span><span class="p">(</span><span class="n">directory</span><span class="p">,</span> <span class="n">column_indices</span><span class="p">,</span> <span class="n">row_start</span><span class="p">,</span> <span class="n">row_end</span><span class="p">)</span>
 
 <span class="c1"># --- Load metadata ---</span>
-<span class="n">metadata</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;/home/luiscamara/Documents/datasets/Champagnes/test.csv&quot;</span><span class="p">,</span> <span class="n">skiprows</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">metadata</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;/Users/juliaroquette/Work/oenology/data/Champagnes/test.csv&quot;</span><span class="p">,</span> <span class="n">skiprows</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 <span class="n">metadata</span> <span class="o">=</span> <span class="n">metadata</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>  <span class="c1"># Remove extra header row</span>
 <span class="n">metadata</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="n">col</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">metadata</span><span class="o">.</span><span class="n">columns</span><span class="p">]</span>  <span class="c1"># Clean headers</span>
 <span class="n">metadata</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="n">col</span> <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">metadata</span><span class="o">.</span><span class="n">columns</span> <span class="k">if</span> <span class="s1">&#39;unnamed&#39;</span> <span class="ow">in</span> <span class="n">col</span><span class="o">.</span><span class="n">lower</span><span class="p">()],</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>

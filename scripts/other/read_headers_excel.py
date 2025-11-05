@@ -18,6 +18,6 @@ def list_sorted_headers(excel_file):
         print(header)
 
 # Example usage
-excel_path = "/home/luiscamara/Documents/datasets/Press_wines_2022/Tot_Chromato_2022_MERLOT_PRESSE_MIS_EN_FORME_SM.xlsx"  # Replace with your actual file path
-# excel_path = "/home/luiscamara/Documents/datasets/Press_wines_2022/Tot_Chromato_2022_CABERNET_SAUV_PRESSE_MIS_EN_FORME_SM.xlsx"  # Replace with your actual file path
+excel_path = "/Users/juliaroquette/Work/oenology/data/Press_wines_2022/Tot_Chromato_2022_MERLOT_PRESSE_MIS_EN_FORME_SM.xlsx"  # Replace with your actual file path
+# excel_path = "/Users/juliaroquette/Work/oenology/data/Press_wines_2022/Tot_Chromato_2022_CABERNET_SAUV_PRESSE_MIS_EN_FORME_SM.xlsx"  # Replace with your actual file path
 list_sorted_headers(excel_path)
